@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.ico.ico" type="image/x-icon">
+    <title>Hover</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color:rgba(0, 0, 255, 0.49);
+            width: 100px;
+        }
+        div:hover{
+            color: rgb(0, 0, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+
+    <p>Passe o mouse sobre o texto a baixo</p>
+    
+    <div>
+        Passe o mouse aqui
+        <p>Texto escondido...</p>
+    </div>
+    <p>Fim do exemplo</p>
+    
+    <a href="index.html">pg1</a>
+    <a href="links.html">pg3</a>
+</body>
+</html>
