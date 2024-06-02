@@ -50,7 +50,7 @@ header  h1{
     color: white;
 font-family:var(--font-destaque);
 text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.504);
-margin-bottom: 20px;
+padding-bottom: 20px;
 font-size: 3em;
 font-weight: normal;
 
@@ -61,7 +61,7 @@ header p{
     font-family: var(--font-padrao);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.578);
 padding-bottom: 70px;
-font-size: 0.8em;
+font-size: 1em;
 max-width: 600px;
 margin:auto ;
 padding-right: 10px;
