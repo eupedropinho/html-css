@@ -60,7 +60,7 @@ header p{
     color: white;
     font-family: var(--font-padrao);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.578);
-padding-bottom: 50px;
+padding-bottom: 70px;
 font-size: 1em;
 max-width: 600px;
 margin:auto ;
@@ -100,7 +100,7 @@ main{
     margin: auto;
     margin-bottom: 20px;
     padding: 10px;
-    padding-top: 30px;
+    padding-top: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
     border-radius: 0px 0px 10px 10px;
 }
