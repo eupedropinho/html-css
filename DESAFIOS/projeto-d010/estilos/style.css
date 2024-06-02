@@ -60,8 +60,8 @@ header p{
     color: white;
     font-family: var(--font-padrao);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.578);
-padding-bottom: 20px;
-font-size: 1.5em;
+padding-bottom: 50px;
+font-size: 1.2em;
 max-width: 600px;
 margin:auto ;
 padding-right: 10px;
