@@ -6,28 +6,37 @@
     <title>Teste astronalta</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        main{
-         margin: auto; 
-         background-color: black;  
-        }
-        main > div{
-            background-color: aqua;
-            padding: opx 0px 500px 0px;
+       body{
+        background-color: gray;
+       }
 
-        }
-        #astronalta{
-display: inline;
+       #conteiner{
+        position: relative;
+background-image: url('imagens/espaco.jpg');
+background-size:cover;
+padding: 10%;
+height: 96vh;
+       }
 
-        }
-       
+       #conteudo{
+        position: absolute;
+        background-image: url('imagens/astronauta.png');
+width: 500px;
+height: 500px;
+
+left: 50%;
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+       }
     </style>
 </head>
 <body>
-    
-    <main>
-        <img src="imagens/espaco.jpg" alt="espaco" id="espaco">
-        <div id="astronalta"><img src="imagens/astronauta.png" alt="astronalta"></div>
-    </main>
-    
+<div id="conteiner">
+    <div id="conteudo">
+
+    </div>
+</div>   
 </body>
 </html>
