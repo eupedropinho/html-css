@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de iframes</title>
+    <style>
+        body{
+            background-color: rgba(128, 128, 128, 0.649);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        div{
+            max-width:800px;
+            background-color:#fff;
+        
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.414);
+            margin: auto;
+        }
+        h1{
+            background-color: rgba(0, 0, 255, 0.566);
+            padding: 10px;
+            border-radius: 10px 10px 0px 0px;
+            margin: 0px;
+
+        }
+        h2{
+            background-color: rgba(0, 0, 255, 0.473);
+            padding: 10px;
+            margin: 0px;
+        }
+
+        iframe{
+            border: 2px solid rgba(136, 135, 135, 0.51);
+            width: 700px;
+            height: 300px;
+            border-radius: 5px;
+            box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.341);
+        }
+        .iframe1{
+            
+            padding-bottom: 10px;
+        }
+
+        li{
+
+            
+            
+            padding-bottom: 10px;
+            padding: 5px;
+
+            
+
+        }
+        a{
+            
+
+            text-decoration: none;
+            background-color: rgb(34, 0, 255);
+            padding: 5px;
+            border-radius: 10px;
+            color:#fff;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.397);
+            font-size: 0.8em;
+            transition: 0.3s;
+            
+        }
+        a:hover{
+            background-color: green;
+            box-shadow: 3px 3px 3px 3px  rgba(0, 128, 0, 0.481);
+        }
+
+        ul{
+            list-style:none;
+    
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Navegação com iframe</h1>
+        <h2>Escolha uma opção</h2>
+        <ul>
+            <li><a href="paginasextrax/pag001.html" target="ir">Página 1</a></li>
+            <li><a href="paginasextrax/pag002.html" target="ir">Página 2</a></li>
+            <li><a href="paginasextrax/pag003.html" target="ir">Página 3</a></li>
+        </ul>
+        <article class="iframe1">
+            <iframe name="ir" srcdoc="<h1>Escolha uma das opções acima!</h1>
+                <img src='imagens/paisagem.jpeg'></img>"></iframe>
+            </iframe>
+        </article>
+    </div>
+    
+    
+</body>
+</html>
